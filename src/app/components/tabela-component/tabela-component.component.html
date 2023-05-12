@@ -1,15 +1,17 @@
-<p>tabela-component works!</p>
-<table>
-    <tr>
-        <th>#</th>
-        <th>Nome</th>
-        <th>Sobrenome</th>
-        <th>Idade</th>
-    </tr>
-    <tr *ngFor="let item of dados">
-        <td>{{item.id}}</td>
-        <td>{{item.nome}}</td>
-        <td>{{item.sobrenome}}</td>
-        <td>{{item.idade}}</td>
-    </tr>
-</table>
+<div class="class">
+    <p>Tabela Usuários:</p>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+        </tr>
+        <tr *ngFor="let item of dados">
+            <td>{{item.id}}</td>
+            <td>{{item.nome}}</td>
+            <td>{{item.sobrenome}}</td>
+            <td>{{item.idade}}</td>
+        </tr>
+    </table>
+</div>

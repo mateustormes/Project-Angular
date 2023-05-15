@@ -10,11 +10,6 @@ export class ListRenderComponent implements OnInit{
 
   animals: Animal[] = []
 
-  animal: Animal = {
-    name: "Turca",
-    type:"Dog",
-    age: 4,
-  };
 
   animalDetails = '';
   
